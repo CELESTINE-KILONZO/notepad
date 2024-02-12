@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="NotepadProject.jnlp">
+  <information>
+    <title>NotepadProject</title>
+    <vendor>USER</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="NotepadProject.jar" size="24892" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="notepadproject.NotepadProject"  name="NotepadProject" />
+  <update check="always"/>
+</jnlp>
